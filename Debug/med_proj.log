@@ -1,0 +1,25 @@
+﻿Build started 08-08-2022 9.53.19 PM.
+     1>Project "C:\Users\Darshika Verma\Desktop\Medical Prescription Generator\Medical Prescription Generator\med_proj\med_proj.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\med_proj.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       CoreResGen:
+         No resources are out of date with respect to their source files. Skipping resource generation.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         med_proj.vcxproj -> C:\Users\Darshika Verma\Desktop\Medical Prescription Generator\Medical Prescription Generator\Debug\med_proj.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\med_proj.unsuccessfulbuild".
+         Touching "Debug\med_proj.lastbuildstate".
+     1>Done Building Project "C:\Users\Darshika Verma\Desktop\Medical Prescription Generator\Medical Prescription Generator\med_proj\med_proj.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.11

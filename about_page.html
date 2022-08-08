@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+        
+        .centered {
+            position: absolute;
+            top: 15%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        .bg {
+            /* The image used */
+            background-image: url("med.jpg");
+            /* Full height */
+            height: 100%;
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .Med1 {
+            position: absolute;
+            top: 50%;
+            left: 35%;
+            transform: translate(-50%, -50%);
+            font-size: 20px;
+            font-family: Georgia, serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="bg">
+    </div>
+
+
+    <div class="Med1">
+
+        <h1>MEDICAL PRESCRIPTION GENERATOR</h1>
+        <p style="font-weight: bold">This application generates the prescription after detecting the spoken symptom. <br>It can be used by a doctor in the clinic to generate prescription for common symptoms. <br> The doctor doesn't have to write it repeatedly, and they can speak
+            the symptom and the prescription will be generated automatically.This saves time and paper which can be used to attend more patients.</p>
+
+        <h1>GUIDELINES</h1>
+        <p>The main page consists of three buttons:</p>
+        <dl>
+            <li style="font-weight: bold" ;>ABOUT</li>
+            <dd>&nbsp&nbsp&nbsp&nbsp&nbsp- it will lead you to the page where the guidelines are mentioned.</dd>
+            <br>
+            <li style="font-weight: bold" ;>TEST</li>
+            <dd>&nbsp&nbsp&nbsp&nbsp&nbsp- it will lead you to another page where you can speak the symptom by clicking on the button.</dd>
+            <br>
+            <li style="font-weight: bold" ;>TRAIN</li>
+            <dd>&nbsp&nbsp&nbsp&nbsp&nbsp- it will train for new speaker, you'll have to speak 20 utterances of each word and a new set of lambdas will be created in "new-lambda folder" which you can copy to main folder and test the model for your voice,
+                it takes a little time to speak and train the model. </dd>
+        </dl>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
